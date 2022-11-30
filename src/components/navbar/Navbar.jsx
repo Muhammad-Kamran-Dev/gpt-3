@@ -5,7 +5,7 @@ import "./navbar.css";
 
 // BEM conventions
 const Navbar = () => {
-  const [toggleMenu, settoggleMenu] = useState(false);
+  const [toggleMenu, settoggleMenu] = useState(null);
   const Menu = () => (
     <>
       <p> <a href="#home">Home</a></p>
@@ -32,7 +32,7 @@ const Navbar = () => {
       <div className="gpt3__navbar-menu">
         {toggleMenu ? <RiCloseLine color='#fff' size={27} onClick={() => settoggleMenu(false)} /> : <RiMenu3Line color='#fff' size={27} onClick={() => settoggleMenu(true)} />}
 
-        {toggleMenu && <div className='gpt3__navbar-menu__container scale-up-center'>
+        {toggleMenu && <div className="gpt3__navbar-menu__container scale-up-tr">
           <div className="gpt3__navbar-menu_container-links">
             <Menu />
             <div className="gpt3__navbar-menu_container-links-sign">
