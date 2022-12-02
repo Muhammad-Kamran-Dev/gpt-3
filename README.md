@@ -19,13 +19,13 @@ https://gpt-openai-3.netlify.app/
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/Muhammad-Kamran-Dev/GPT-3-OpenAI.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd GPT-3-OpenAI
 ```
 
 Install dependencies
